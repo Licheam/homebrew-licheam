@@ -10,7 +10,7 @@ class Tlsdate < Formula
   depends_on 'automake' => :build
   depends_on 'libtool' => :build
   depends_on 'pkg-config' => :build
-  depends_on 'licheam/openssl@1.0' => :build
+  depends_on 'licheam/licheam/openssl@1.0' => :build
 
   def install
     system "./autogen.sh"
