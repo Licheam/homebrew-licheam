@@ -1,6 +1,6 @@
 class Tlsdate < Formula
   homepage 'https://www.github.com/ioerror/tlsdate/'
-  url 'https://github.com/ioerror/tlsdate/archive/refs/tags/tlsdate-0.0.13.tar.gz'
+  url 'https://codeload.github.com/Licheam/tlsdate/tar.gz/db811efad1d655e5aad763d0871aa4e97fcbfcfc'
   # This hash will never be correct until we put a tagged version into master
   # update accordingly until we do a proper release that supports OS X
   sha256 '61aaee6e109484965d38f9ffd08f0ea4cbe967ba61027bc29d7bbdc925d21417'
