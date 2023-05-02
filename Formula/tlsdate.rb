@@ -11,11 +11,11 @@ class Tlsdate < Formula
   depends_on 'libtool' => :build
   depends_on 'libevent' => :build
   depends_on 'pkg-config' => :build
-  depends_on 'licheam/licheam/openssl@1.0' => :build
+  depends_on 'openssl@1.1' => :build
 
   patch do
-    url "https://github.com/Licheam/tlsdate/commit/831923d36027079f9c90cb9f338b43d7004c188a.patch?full_index=1"
-    sha256 "33c400434dbadf66df5df7e380fd72493f36a861946b2d41bf652ff0edfc98e2"
+    url "https://github.com/ioerror/tlsdate/compare/tlsdate-0.0.13...akiernan:tlsdate:master.patch?full_index=1"
+    sha256 "ed9fef28aec4ba4e21574258be391958c5c2f3b088a529df6f7e45837c6db5d4"
   end
 
   def install
