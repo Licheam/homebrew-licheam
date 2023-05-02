@@ -13,6 +13,11 @@ class Tlsdate < Formula
   depends_on 'pkg-config' => :build
   depends_on 'licheam/licheam/openssl@1.0' => :build
 
+  patch do
+    url "https://github.com/Licheam/tlsdate/commit/831923d36027079f9c90cb9f338b43d7004c188a.patch?full_index=1"
+    sha256 "33c400434dbadf66df5df7e380fd72493f36a861946b2d41bf652ff0edfc98e2"
+  end
+
   def install
     system "./autogen.sh"
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
