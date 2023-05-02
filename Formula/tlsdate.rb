@@ -1,6 +1,6 @@
 class Tlsdate < Formula
-  homepage 'https://chromium.googlesource.com/chromiumos/third_party/tlsdate'
-  url 'https://chromium.googlesource.com/chromiumos/third_party/tlsdate/+archive/db811efad1d655e5aad763d0871aa4e97fcbfcfc.tar.gz'
+  homepage 'https://www.github.com/ioerror/tlsdate/'
+  url 'https://codeload.github.com/Licheam/tlsdate/tar.gz/db811efad1d655e5aad763d0871aa4e97fcbfcfc'
   # This hash will never be correct until we put a tagged version into master
   # update accordingly until we do a proper release that supports OS X
   sha256 '61aaee6e109484965d38f9ffd08f0ea4cbe967ba61027bc29d7bbdc925d21417'
