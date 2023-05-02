@@ -7,7 +7,7 @@ class OpensslAT10 < Formula
   url "https://www.openssl.org/source/openssl-1.0.2u.tar.gz"
   mirror "https://dl.bintray.com/homebrew/mirror/openssl-1.0.2u.tar.gz"
   mirror "https://www.mirrorservice.org/sites/ftp.openssl.org/source/openssl-1.0.ut.tar.gz"
-  sha256 "82fa58e3f273c53128c6fe7e3635ec8cda1319a10ce1ad50a987c3df0deeef05"
+  sha256 "ecd0c6ffb493dd06707d38b14bb4d8c2288bb7033735606569d8f90f89669d16"
 
   keg_only :shadowed_by_macos, "macOS provides LibreSSL"
 
