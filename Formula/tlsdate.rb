@@ -11,7 +11,7 @@ class Tlsdate < Formula
   depends_on 'libtool' => :build
   depends_on 'libevent' => :build
   depends_on 'pkg-config' => :build
-  depends_on 'openssl@1.1'
+  depends_on 'openssl@1.1' => :build
 
   def install
     system "./autogen.sh"
