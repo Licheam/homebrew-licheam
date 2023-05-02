@@ -6,12 +6,12 @@ class Tlsdate < Formula
   sha256 '90efdff87504b5159cb6a3eefa9ddd43723c073d49c4b3febba9e48fc1292bf9'
   version '0.0.13'
 
-  # depends_on 'autoconf' => :build
-  # depends_on 'automake' => :build
-  # depends_on 'libtool' => :build
-  # depends_on 'libevent' => :build
-  # depends_on 'pkg-config' => :build
-  # depends_on 'openssl@1.1'
+  depends_on 'autoconf' => :build
+  depends_on 'automake' => :build
+  depends_on 'libtool' => :build
+  depends_on 'libevent' => :build
+  depends_on 'pkg-config' => :build
+  depends_on 'openssl@1.1'
 
   patch do
     url "https://github.com/ioerror/tlsdate/compare/tlsdate-0.0.13...akiernan:tlsdate:master.patch?full_index=1"
