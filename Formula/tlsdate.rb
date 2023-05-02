@@ -11,7 +11,7 @@ class Tlsdate < Formula
   depends_on 'libtool' => :build
   depends_on 'libevent' => :build
   depends_on 'pkg-config' => :build
-  depends_on 'openssl@1.1' => :build
+  depends_on 'openssl@1.1'
 
   patch do
     url "https://github.com/ioerror/tlsdate/compare/tlsdate-0.0.13...akiernan:tlsdate:master.patch?full_index=1"
