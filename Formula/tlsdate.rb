@@ -20,8 +20,7 @@ class Tlsdate < Formula
 
   def install
     system "./autogen.sh"
-    system "./configure", "--disable-debug", "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
+    system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make install"
   end
